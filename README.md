@@ -15,8 +15,7 @@ Fragment Manager: the navigation through views is by a fragment manager, in whic
 
 ## Preview
 
-![](Preview.gif)
-
+<img src="Preview.gif" width="250" height="250"/>
 ## Using The App:
 
 1. Search Games:
