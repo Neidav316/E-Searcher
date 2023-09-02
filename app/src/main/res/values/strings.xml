@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Search Game App</string>
+    <string name="search">Search</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="game_name">Game Name Placeholder</string>
+    <string name="game_page_btn">Game Page</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="game_name_search">Game name</string>
+    <string name="publisher_company_search">Publisher Company</string>
+    <string name="developer_company_search">Developer Company</string>
+    <string name="game_release_search_after">Game Release (search after)</string>
+    <string name="series_search">Series</string>
+    <string name="genras_search">Genres</string>
+    <string name="game_modes_search">Game Modes</string>
+    <string name="platforms_search">Platforms</string>
+</resources>

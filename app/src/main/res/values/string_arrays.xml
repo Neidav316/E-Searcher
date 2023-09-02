@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_array_platforms">
+        <item
+            >Platforms: </item>
+    </string-array>
+    <string-array name="string_array_series">
+        <item
+            >Series: </item>
+    </string-array>
+    <string-array name="string_array_genres">
+        <item
+            >Genres: </item>
+    </string-array>
+    <string-array name="string_array_game_modes">
+        <item
+            >Game Modes: </item>
+    </string-array>
+    <string-array name="string_array_description">
+        <item
+            >Discription: </item>
+    </string-array>
+    <string-array name="string_array_developer">
+        <item
+            >Developer: </item>
+    </string-array>
+    <string-array name="string_array_publisher">
+        <item
+            >Publisher: </item>
+    </string-array>
+</resources>

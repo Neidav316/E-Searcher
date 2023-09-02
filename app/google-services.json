@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "63788196484",
+    "firebase_url": "https://e-searcher-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "e-searcher",
+    "storage_bucket": "e-searcher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63788196484:android:101162371335d6d10e98d1",
+        "android_client_info": {
+          "package_name": "com.neidavCo.ESearcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63788196484-o6an7t12kgdnu0cn93jioic1nv9ng0vg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe25FSjJgHFPLSyDgV9w3AkpEPIcq_OpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63788196484-o6an7t12kgdnu0cn93jioic1nv9ng0vg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

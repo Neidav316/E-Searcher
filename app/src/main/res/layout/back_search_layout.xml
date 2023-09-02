@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/purple_700"
+    android:id="@+id/back_search_layout">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="19dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Game_name_input"
+                style="@style/Widget.AppCompat.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:hint="@string/game_name_search"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="@color/text_color_for_dark"
+                android:textColorHint="@color/light_gray" />
+
+            <EditText
+                android:id="@+id/Publisher_input"
+                style="@style/Widget.AppCompat.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:hint="@string/publisher_company_search"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="@color/text_color_for_dark"
+                android:textColorHint="@color/light_gray" />
+
+            <EditText
+                android:id="@+id/Developer_input"
+                style="@style/Widget.AppCompat.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:ems="10"
+                android:hint="@string/developer_company_search"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="@color/text_color_for_dark"
+                android:textColorHint="@color/light_gray" />
+
+            <EditText
+                android:id="@+id/game_release_input"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:hint="@string/game_release_search_after"
+                android:inputType="date"
+                android:minHeight="48dp"
+                android:textColorHint="@color/light_gray" />
+
+            <EditText
+                android:id="@+id/series_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:hint="@string/series_search"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="@color/light_gray" />
+
+
+            <TextView
+                android:id="@+id/txtGenrasSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/text_box_shape"
+                android:text="@string/genras_search"
+                android:textAlignment="center"
+                android:textColor="@color/text_color_for_dark"
+                android:textSize="16sp"
+                android:elevation="5dp"/>
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/Genras_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                app:chipSpacing="20dp">
+
+            </com.google.android.material.chip.ChipGroup>
+
+            <TextView
+                android:id="@+id/txtGameModesSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/text_box_shape"
+                android:text="@string/game_modes_search"
+                android:textAlignment="center"
+                android:textColor="@color/text_color_for_dark"
+                android:textSize="16sp"
+                android:elevation="5dp"/>
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/GameModes_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                app:chipSpacing="20dp">
+
+            </com.google.android.material.chip.ChipGroup>
+
+            <TextView
+                android:id="@+id/txtPlatformsSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/text_box_shape"
+                android:text="@string/platforms_search"
+                android:textAlignment="center"
+                android:textColor="@color/text_color_for_dark"
+                android:textSize="16sp"
+                android:elevation="5dp"/>
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/Platfroms_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                app:chipSpacing="20dp">
+
+            </com.google.android.material.chip.ChipGroup>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
