@@ -13,7 +13,11 @@ Firebase: using the Firebase Authentication for user managment, and real-time da
 
 Fragment Manager: the navigation through views is by a fragment manager, in which there is an one activity and on top of it there is a fragment container for fragments to change by navigation.
 
-## using the app:
+## Preview
+
+![](Preview.gif)
+
+## Using The App:
 
 1. Search Games:
    - by navigating to the search tab, the full list of games is loaded and can go to their game page.
