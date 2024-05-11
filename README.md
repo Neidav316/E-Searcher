@@ -1,6 +1,6 @@
 # E-Searcher
 
-This app helps searching for games by preference of varity of search options and can add the games to your user favorite list of games,
+This app is designed to help search for games by preference of varity of search options and can add the games to your user favorite list of games,
 to see the common attributes of the games and use those to search other games alike the games.
 
 ## Description
